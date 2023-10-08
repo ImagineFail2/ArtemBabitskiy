@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+  font-family:Axon-Bold;
+  src: url(HomeWork/html_css_2/base/images/fonts/Axon-Bold.otf);
+  }
+body {
+background-image: url("HomeWork/html_css_2/base/images/eso0kjg2w2p61.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.header {
+  display: flex;
+  justify-content:center;
+}
+.tittle {
+  width: 7ch;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  border-right: 3px solid white; 
+  animation: cursor 0.75s step-end infinite,
+  printed_text 1.5s steps(18) ;
+}
+@keyframes cursor {
+  0%{
+      border-color: white;
+  }
+
+  50%{
+      border-color: transparent;
+  }
+
+  100%{
+      border-color: white;
+  }
+}
+@keyframes printed_text {
+  from{
+      width: 0;
+  }
+}
+
+table {
+  position: absolute;
+    top: 20px;
+    right: 20px;
+  font-family:Axon-Bold;
+  font-size: 20px;
+  border-collapse: collapse;
+  text-align: center;
+  }
+  th, td:first-child {
+  background: #448a42;
+  color: white;
+  padding: 10px 20px;
+  }
+  th, td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: rgb(0, 0, 0);
+  }
+  td {
+  background: #ffffff;
+  }
+  th:first-child, td:first-child {
+  text-align: center;
+  }
