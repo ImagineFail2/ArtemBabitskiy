@@ -79,6 +79,8 @@ background-attachment: fixed;
     fill: #448a42
 }
 .htmlcss h3 {
+    width: 100%;
+    border-bottom: 4px solid white;
     transition: all 0.7s ease 0s;
     color: white;
     font-size: 20px;
@@ -113,10 +115,10 @@ background-attachment: fixed;
     background: white;
     border-radius: 10px;
 }
-h2 {
+.htmlcss h2 {
   color:white;
 }
-a {
+.htmlcss a {
   font-size: 20px;
   color: orange;
 }
