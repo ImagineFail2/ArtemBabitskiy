@@ -109,12 +109,7 @@ background-attachment: fixed;
     align-items: center;
     position: relative;
 }
-.palka {
-    width: 100px;
-    height: 3px;
-    background: white;
-    border-radius: 10px;
-}
+
 .htmlcss h2 {
   color:white;
 }
