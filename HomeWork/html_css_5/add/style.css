@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background: url(../../html_css_2/base/images/backgroundleftcenter.png) 20% top repeat-y;
+}
+.background {
+  background: 
+  url(../../html_css_2/base/images/ball_football.png) left top no-repeat,
+  url(../../html_css_2/base/images/ball_football.png) left bottom no-repeat,
+  url(../../html_css_2/base/images/two_balls.png) 20% top no-repeat,
+  url(../../html_css_2/base/images/two_balls.png) 20% bottom no-repeat,
+  url(../../html_css_2/base/images/ball200px.png) right top no-repeat,
+  url(../../html_css_2/base/images/ball200px.png) right bottom no-repeat,
+  url(../../html_css_2/base/images/ball_football.png) right top no-repeat,
+  url(../../html_css_2/base/images/ball_football.png) right bottom no-repeat,
+  url(../../html_css_2/base/images/rightpink.png) right top repeat-y;
+}
+.left {
+  float: left;
+  width: 20%;
+}
+.right {
+  float: right;
+  width: 200px;
+}
+.center {
+  margin-left: 20%;
+  margin-right: 200px ;
+}
+.clear {
+  clear: both;
+}
