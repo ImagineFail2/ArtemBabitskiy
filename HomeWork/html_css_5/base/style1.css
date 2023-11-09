@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  background: url(../../html_css_2/base/images/maketball.png) right top repeat-y;
+}
+.header {
+  color: blue;
+  background-color: aqua;
+  text-align: center;
+  padding: 20px;
+}
+.content {
+  background: url(../../html_css_2/base/images/maketball.png) right top repeat-y;
+}
+.nav {
+  background-color: yellow;
+  width: 180px;
+  float: left;
+  padding: 5px;
+}
+.main {
+
+}
+.clear {
+  clear: both;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+img {
+  float: left;
+  margin-left: 15px;
+}
+.footer {
+  color: blue;
+  background-color: aqua;
+  text-align: center;
+  padding: 20px;
+}
