@@ -1,0 +1,30 @@
+.one {
+  margin-bottom: 20px;
+}
+.two {
+  margin-bottom: 20px;
+}
+span {
+  color: red;
+  font-size: 30px;
+  font-weight: 800;
+}
+a:hover {
+  color: red;
+}
+
+a {
+  padding: 10px;
+  color: green;
+}
+
+.three a {
+  border-right: 3px solid red ;
+}
+.three a:last-child {
+  border: none;
+}
+img {
+  height: 30px;
+  vertical-align: middle;
+}
