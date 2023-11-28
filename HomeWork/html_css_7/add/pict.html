@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Тег &ltpicture&gt дает веб-разработчикам больше гибкости при указании графических ресурсов.
+    Чаще всего элемент &ltpicture&gt используется для художественного оформления в адаптивном дизайне. Вместо одного изображения, масштабируемого вверх или вниз в зависимости от ширины области просмотра, можно создать несколько изображений, чтобы более красиво заполнить область просмотра браузера.
+    Элемент &ltpicture&gt содержит два тега: один или несколько тегов &ltsource&gt и один тег &ltimg&gt.
+    Браузер будет искать первый элемент &ltsource&gt, где медиа-запрос соответствует текущей ширине видового экрана, а затем отобразит соответствующее изображение (указанное в атрибуте srcset). Элемент &ltimg&gt требуется как потерянный дочерний элемент элемента &ltpicture&gt, в качестве запасного варианта, если ни один из исходных тегов не совпадает.</p>
+    <p>Пример :
+      <h3>Измените размер окна браузера, чтобы загрузить разные изображения.</h3>
+        <picture>
+          <source srcset="../../html_css_2/base/images/red_flowers.jpg" media="(min-width: 1200px)">
+          <source srcset="../../html_css_2/base/images/black_flowers.jpg" media="(min-width: 640px)">
+          <img src="../../html_css_2/base/images/white_flower.jpg" alt="A description of the image." 
+            width="300" height="200" loading="lazy" decoding="async">
+        </picture>
+    </p>
+  </body>
+</html>
