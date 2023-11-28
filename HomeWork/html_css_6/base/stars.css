@@ -1,0 +1,11 @@
+.rating {
+  float: left;
+}
+span {
+  float: right;
+}
+.rating > span:hover::before,
+.rating > span:hover ~ span::before {
+  content: url('../../html_css_2/base/images/star1.png');
+  position: absolute;
+}
