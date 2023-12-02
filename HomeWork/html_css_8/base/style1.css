@@ -1,3 +1,4 @@
+
 * {
   margin: 0px;
   padding: 0px;
@@ -9,7 +10,20 @@
   text-align: center;
   padding: 20px;
 }
-
+.club:hover{
+  cursor: pointer;
+}
+.club {
+  font-size: 15px;
+  text-decoration: underline;
+  top: 60px;
+  right: 30px;
+  position: fixed;
+  height: 60px;
+  width: 120px;
+  background-color: lightgreen;
+  border-color: green;
+}
 .nav {
   width: 140px;
   padding: 30px 20px 60px 20px;
