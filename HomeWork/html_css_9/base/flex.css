@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: blue;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  background: url(../../html_css_2/base/images/maketball.png)right top repeat-y;
+}
+
+.nav {
+  padding: 30px;
+  background-color: yellow;
+  width: 200px;
+  flex-shrink: 0;
+
+}
+
+h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.main {
+  background-position: right top;
+}
+
+.footer {
+  color: blue;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+img {
+  padding: 10px;
+  float: left;
+}
